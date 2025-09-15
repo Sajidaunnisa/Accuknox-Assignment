@@ -1,12 +1,78 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Accuknox Assignment
 
-Currently, two official plugins are available:
+A simple React + Vite project with ESLint setup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+This project is built using **React** and **Vite**.
+ESLint is configured to help maintain code quality and enforce a consistent style.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Features
+
+* Fast development server with hot module replacement (HMR) via Vite
+* React frontend framework
+* Basic ESLint setup to catch errors and enforce style
+
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Sajidaunnisa/Accuknox-Assignment.git
+   cd Accuknox-Assignment
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open your browser at `http://localhost:3000/` (or whatever port Vite specifies) to view the app.
+
+
+## Project Structure
+
+Here’s a brief look at the main files/folders:
+
+```
+.
+├── public/               # Static assets
+├── src/                  # React source code
+├── .gitignore
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+└── README.md
+```
+
+* `public/` — for static files
+* `src/` — React components, styles, etc.
+* `vite.config.js` — Vite configuration
+* `eslint.config.js` — ESLint rules
+
+---
+
+## Scripts
+
+Common npm / yarn scripts:
+
+| Command         | Description                        |
+| --------------- | ---------------------------------- |
+| `npm run dev`   | Start development server           |
+| `npm run build` | Build for production               |
+| `npm run lint`  | Run ESLint for code style & errors |
+
