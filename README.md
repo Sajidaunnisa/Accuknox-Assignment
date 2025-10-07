@@ -1,5 +1,5 @@
 
-# Accuknox Assignment
+# Dashboard-Assignment
 
 A simple React + Vite project with ESLint setup.
 
